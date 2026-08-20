@@ -4,10 +4,12 @@ Clone della home page del New York Times, costruito come progetto di pratica per
 
 Non è affiliato al New York Times. I dati sono ottenuti dalle API pubbliche NYT (Top Stories, Most Popular).
 
+Demo: https://alessiacattaneodev.github.io/NewYorkTimesProject/
+
 ## Stack
 
-- React 18 + Vite + TypeScript
-- React Router v6
+- React 19 + Vite + TypeScript
+- React Router v7
 - Axios
 - Context API + `useReducer`
 - Tailwind CSS v4

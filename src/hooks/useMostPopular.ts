@@ -17,7 +17,6 @@ export function useMostPopular() {
       const message = err instanceof Error ? err.message : "Errore nel caricamento dei più letti.";
       dispatch({ type: "MOST_POPULAR_FETCH_ERROR", error: message });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch]);
 
   useEffect(() => {
