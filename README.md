@@ -39,6 +39,6 @@ Demo: https://alessiacattaneodev.github.io/NewYorkTimesProject/
 
 - Home e 6 sezioni (World, U.S., Politics, Business, Technology, Arts) via Top Stories API.
 - Sidebar "Più letti" via Most Popular API.
-- Pagina di dettaglio interna per ogni articolo, con link all'articolo originale su nytimes.com.
+- Pagina di dettaglio interna per ogni articolo, con link all'articolo originale su nytimes.com. Al refresh o su un link condiviso (senza lo state di navigazione), l'articolo viene ricercato nella sezione indicata dalla query e tra i "più letti"; Top Stories e Most Popular sono istantanee, non un archivio, quindi se l'articolo è nel frattempo uscito da entrambe le liste la pagina lo segnala esplicitamente invece di un generico "non trovato".
 - Dark/light mode con persistenza in `localStorage`.
 - Design responsive.
